@@ -1,6 +1,6 @@
 build/
 node_modules/
-*.zip
+
 /Management.sol
 src/prkey.txt
 /ssl.csr
