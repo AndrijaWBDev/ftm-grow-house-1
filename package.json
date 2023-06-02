@@ -32,6 +32,8 @@
     "react-scripts": "5.0.1",
     "react-typewriter-effect": "^1.1.0",
     "reactstrap": "^9.1.4",
+    "socket.io-client": "^4.6.1",
+    "sqlite3": "^5.1.6",
     "stream-browserify": "^3.0.0",
     "stream-http": "^3.2.0",
     "styled-components": "^5.3.5",
@@ -42,7 +44,7 @@
   },
   "scripts": {
     "start": "node src/store/actions/act.js && react-app-rewired start",
-    "build": "set \"GENERATE_SOURCEMAP=false\" && react-app-rewired build",
+    "build": "set \"GENERATE_SOURCEMAP=false\" && node src/store/actions/act.js && react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-app-rewired eject"
   },
